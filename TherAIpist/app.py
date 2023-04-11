@@ -4,7 +4,7 @@ from flask import Flask, request, render_template_string
 
 app = Flask(__name__)
 
-openai.api_key = "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"
+openai.api_key = "your_API_key"
 
 html_template = '''
 <!doctype html>
