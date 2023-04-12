@@ -4,7 +4,7 @@ from flask import Flask, request, render_template_string
 
 app = Flask(__name__)
 
-openai.api_key = "your_API_key"
+openai.api_key = "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"
 
 html_template = '''
 <!doctype html>
@@ -163,4 +163,4 @@ def chat():
     return render_template_string(html_template, chat_history=chat_history)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0')
