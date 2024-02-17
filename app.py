@@ -6,7 +6,7 @@ app = Flask(__name__, static_folder='static', static_url_path='')
 
 app = Flask(__name__)
 
-openai.api_key = "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"
+openai.api_key = "YOUR-API-KEY-HERE"
 
 html_template = '''<!doctype html>
 <html lang="en">
